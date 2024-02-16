@@ -1,0 +1,25 @@
+REM Exercise 2-1
+REM Hayden Sapp
+REM 2024-02-15
+
+REM Attackmodes
+ATTACKMODE HID STORAGE
+
+REM Step 1: Open a document
+GUI r
+STRING notepad
+ENTER
+
+REM Step 2: Type Hello World!
+DELAY 2000
+STRING Hello World!
+
+REM Step 3: Blink the Green LED on and off for 5 seconds
+VAR $i = 0
+WHILE ( $i != 5 )
+    LED_G
+    DELAY 500
+    LED_OFF
+    DELAY 500
+    $i = $i + 1
+END_WHILE
