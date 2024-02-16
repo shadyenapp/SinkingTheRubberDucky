@@ -14,5 +14,3 @@ Write and deploy a payload which will:
 * Open a plaintext document on the target operating system
 * Turn the LED off, then type the first million digits of pi.
 * Stop typing, set the LED to red and end the series of digits with three exclamation points (!!!) if the button is pressed
-
-https://github.com/shadyenapp/SinkingTheRubberDucky/blob/main/Exercises/Exercise%202/Exercise%202-2.txt
