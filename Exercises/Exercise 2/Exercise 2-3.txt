@@ -1,0 +1,37 @@
+REM Exercise 2-3
+REM Hayden Sapp
+REM 2024-02-15
+
+REM Attackmodes
+ATTACKMODE HID STORAGE
+
+REM Step 1: Open a document
+GUI r
+STRING notepad
+ENTER
+
+REM Step 2: Type Hello World and flash lights in between
+DELAY 2000
+STRING H
+LED_R
+STRING e
+LED_G
+STRING l
+LED_R
+STRING l
+LED_G
+STRING o
+LED_R
+STRING SPACE
+LED_G
+STRING W
+LED_R
+STRING o
+LED_G
+STRING r
+LED_R
+STRING l
+LED_G
+STRING d
+LED_R
+STRING !
