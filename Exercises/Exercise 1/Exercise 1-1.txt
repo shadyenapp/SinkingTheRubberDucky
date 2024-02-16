@@ -1,0 +1,20 @@
+REM Exercise 1-1
+REM Hayden Sapp
+REM 2024-02-15
+
+REM Step 1: Open the Terminal (Windows)
+GUI r
+DELAY 1000
+STRING cmd
+ENTER
+
+REM Step 2: Run commands to show listing of files
+DELAY 1000
+STRING dir
+ENTER
+
+REM Step 3: Pause for 5 seconds
+DELAY 5000
+
+REM Step 4: Close
+ALT F4
