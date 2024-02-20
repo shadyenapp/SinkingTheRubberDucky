@@ -1,0 +1,13 @@
+REM Exercise 3-2
+REM Hayden Sapp
+REM 2024-02-19
+
+REM Step 1: Wait for button press and change attack mode
+WAIT_FOR_BUTTON_PRESS
+
+REM If $_CURRENT_ATTACKMODE is 1, then its HID, if 2, then its STORAGE. 0 is off and 3 is both.
+IF ( $_CURRENT_ATTACKMODE == 1 ) THEN
+ATTACKMODE STORAGE
+ELSE IF ( $_CURRENT_ATTACKMODE == 2 ) THEN
+ATTACKMODE HID
+END_IF
