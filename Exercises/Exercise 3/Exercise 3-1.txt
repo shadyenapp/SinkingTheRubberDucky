@@ -1,0 +1,17 @@
+REM Exercise 3-1
+REM Hayden Sapp
+REM 2024-02-19
+
+REM Attackmode
+ATTACKMODE HID
+
+REM Step 1: Open the editor
+GUI r
+DELAY 500
+STRING notepad
+ENTER
+DELAY 1000
+STRING Hello World!
+REM Step 2: Wait for button press and change attack mode
+WAIT_FOR_BUTTON_PRESS
+ATTACKMODE STORAGE
