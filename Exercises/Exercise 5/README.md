@@ -1,5 +1,5 @@
 # Exercises 5
-## Exercise 5-1
+## [Exercise 5-1](https://github.com/shadyenapp/SinkingTheRubberDucky/blob/main/Exercises/Exercise%205/Exercise%205-1.txt)
 Write and deploy a payload that will:
 * Open a text editor
 * Type in the lyrics to Rick Astly's song, Never Going to Give you Up
