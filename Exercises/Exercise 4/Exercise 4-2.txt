@@ -1,0 +1,15 @@
+REM Exercise 4-1
+REM Hayden Sapp
+REM 2024-02-19
+
+REM change this website to go where you want
+DEFINE WEBSITE https://google.com
+
+REM Step 1: Go to website
+GUI r
+DELAY 500
+STRING WEBSITE
+ENTER
+
+REM Step 2: Maximize the screen (windows + up arrow)
+GUI UPARROW
