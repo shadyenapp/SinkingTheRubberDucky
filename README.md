@@ -16,7 +16,10 @@ This senior capstone project is by Hayden Sapp and Emma McLeod for the Cyber Int
 ## Exercises
 * [Exercise 1](https://github.com/shadyenapp/SinkingTheRubberDucky/blob/main/Exercises/Exercise%201/README.md)
 * [Exercise 2](https://github.com/shadyenapp/SinkingTheRubberDucky/blob/main/Exercises/Exercise%202/README.md)
-
+* [Exercise 3](https://github.com/shadyenapp/SinkingTheRubberDucky/blob/main/Exercises/Exercise%203/README.md)
+* [Exercise 4](https://github.com/shadyenapp/SinkingTheRubberDucky/blob/main/Exercises/Exercise%204/README.md)
+* [Exercise 5](https://github.com/shadyenapp/SinkingTheRubberDucky/blob/main/Exercises/Exercise%205/README.md)
+* [Exercise 6](https://github.com/shadyenapp/SinkingTheRubberDucky/blob/main/Exercises/Exercise%206/README.md)
 ## Projects
 
 ## Final Report
