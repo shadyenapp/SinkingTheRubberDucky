@@ -10,7 +10,7 @@ The Rubber Ducky is Hak5's proprietary keystroke injection tool. As pioneers of 
 * [Payload Studio](https://payloadstudio.hak5.org/pro/)
 * [Hak5 Liscense Agreement](https://shop.hak5.org/pages/software-license-agreement)
 ## About
-This senior capstone project is by Hayden Sapp and Emma McLeod for the Cyber Intelligence and Security degree program at Embry-Riddle Aeronautical University Prescott. 
+This senior capstone project is by Hayden Sapp and Emma McLeod for the Cyber Intelligence and Security degree program at Embry-Riddle Aeronautical University Prescott. As such, all programs, scripts, and information in this repository is for Adademic and Educational use only. Use outside of these scopes and testing without permission should not be done and we do not condone nor are liable for. 
 ## Methods
 
 ## Exercises
