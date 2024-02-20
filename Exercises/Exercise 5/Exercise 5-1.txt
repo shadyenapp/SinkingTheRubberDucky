@@ -1,0 +1,29 @@
+REM Exercise 5-1
+REM Hayden Sapp
+REM 2024-02-19
+
+REM Step 1, open a text editor
+GUI r
+DELAY 500
+STRING notepad
+ENTER
+DELAY 2000
+
+REM Step 2, type the lines to Rick's song
+VAR $delay = 100
+STRING We're no strangers to love
+ENTER
+DELAY $delay
+$delay = ( $delay + 100 )
+STRING You know the rules and so do I 
+ENTER
+DELAY $delay
+$delay = ( $delay + 100 )
+STRING A full commitment's what I'm thinking of
+ENTER
+DELAY $delay
+$delay = ( $delay + 100 )
+STRING You wouldn't get this from any other guy
+ENTER
+DELAY $delay
+$delay = ( $delay + 100 )
