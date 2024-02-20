@@ -1,0 +1,28 @@
+REM Exercise 6-2
+REM Hayden Sapp
+REM 2024-02-19
+
+REM Step 1: Open text edit and ask to press the button
+GUI r
+DELAY 500
+STRING notepad
+ENTER
+DELAY 2000
+
+STRING Push the button within the next 5 seconds
+ENTER
+
+REM Step 2: wait 5 seconds
+DELAY 5000
+REM Not using () to save 10 bytes of data
+IF $_BUTTON_PUSH_RECEIVED THEN
+STRING Success!
+LED_G
+DELAY 5000
+LED_OFF
+END_IF
+ELSE 
+STRING Failure!
+LED_R
+DELAY 5000
+LED_OFF
