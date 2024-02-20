@@ -8,7 +8,7 @@ Write and deploy a payload that will:
 Write and deploy a payload that will:
 * Alternate between enumerating on the target as a HID and STORAGE device when the button is pressed
 
-## [Exercises 3-3](https://github.com/shadyenapp/SinkingTheRubberDucky/blob/main/Exercises/Exercise%203/Exercise%203-3.txt)
+## Exercises 3-3
 Write and deploy a payload against a macOS target which will:
 * Bypass the Keyboard Setup Assistant dialog
 
