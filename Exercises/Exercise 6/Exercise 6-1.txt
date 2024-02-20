@@ -1,0 +1,40 @@
+REM Exercise 6-1
+REM Hayden Sapp
+REM 2024-02-19
+
+REM Step 1, open a text editor
+GUI r
+DELAY 500
+STRING notepad
+ENTER
+DELAY 2000
+
+REM Change this variable to FALSE if no delay wanted
+VAR $conditional_delay = TRUE
+
+REM Step 2, type the lines to Rick's song
+VAR $delay = 100
+STRING We're no strangers to love
+ENTER
+IF ( $conditional_delay == TRUE ) THEN
+DELAY $delay
+END_IF
+$delay = ( $delay + 100 )
+STRING You know the rules and so do I 
+ENTER
+IF ( $conditional_delay == TRUE ) THEN
+DELAY $delay
+END_IF
+$delay = ( $delay + 100 )
+STRING A full commitment's what I'm thinking of
+ENTER
+IF ( $conditional_delay == TRUE ) THEN
+DELAY $delay
+END_IF
+$delay = ( $delay + 100 )
+STRING You wouldn't get this from any other guy
+ENTER
+IF ( $conditional_delay == TRUE ) THEN
+DELAY $delay
+END_IF
+$delay = ( $delay + 100 )
