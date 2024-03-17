@@ -1,0 +1,44 @@
+REM Exercise 7-2
+REM Hayden Sapp
+REM 2024-03-17
+
+REM button definiton
+BUTTON_DEF
+WHILE TRUE
+LED_R
+DELAY 500
+LED_OFF
+DELAY 500
+END_WHILE
+END_BUTTON
+
+REM Open a text Editor
+DELAY 2000
+GUI r
+DELAY 500
+STRINGLN notepad
+
+REM Local variable
+REM Change 4 to the desired loop count
+VAR $loops = 4
+VAR $i = 0
+
+REM Type the song 4 times
+WHILE ( $i < $loops )
+DELAY 500
+STRINGLN John Jacob Jingleheimer Schmidt
+STRINGLN His name is my name too
+STRINGLN When ever we go out
+STRINGLN The people always shout
+STRINGLN There goes
+STRINGLN John Jacob Jingleheimer Schmidt
+VAR $i = ( $i+1 )
+END_WHILE
+
+REM BLink Green LED
+WHILE TRUE
+LED_G
+DELAY 500
+LED_OFF
+DELAY 500
+END_WHILE
