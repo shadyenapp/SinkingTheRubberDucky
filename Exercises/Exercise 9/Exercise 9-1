@@ -1,0 +1,20 @@
+REM Exercise 9-1
+REM Hayden Sapp
+REM 2024-03-17
+
+REM Open Terminal
+DELAY 2000
+GUI r
+DELAY 100
+STRINGLN cmd
+DELAY 1000
+STRINGLN cd Desktop
+DELAY 100
+
+VAR $files = 20
+VAR $i = 0
+
+WHILE ( $i < $files )
+STRINGLN type nul > RANDOM_CHARACTER.txt
+DELAY 100
+END_WHILE
