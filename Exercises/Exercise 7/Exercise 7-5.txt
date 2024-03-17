@@ -1,0 +1,30 @@
+REM Exercise 7-5
+REM Hayden Sapp
+REM 2024-03-17
+
+REM Open text editor
+DELAY 2000
+GUI r
+DELAY 500
+STRINGLN notepad
+DELAY 2000
+
+VAR $face = TRUE
+
+REM Print faces
+WHILE TRUE
+IF $face
+STRINGLN :)
+DELAY 500
+ELSE
+STRINGLN :(
+DELAY 500
+END_IF
+IF $_BUTTON_PUSH_RECEIVED
+IF $face
+VAR $face = FALSE
+ELSE
+VAR $face = TRUE
+END_IF
+END_IF
+END_WHILE
