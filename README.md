@@ -20,6 +20,9 @@ This senior capstone project is by Hayden Sapp and Emma McLeod for the Cyber Int
 * [Exercise 4](https://github.com/shadyenapp/SinkingTheRubberDucky/blob/main/Exercises/Exercise%204/README.md)
 * [Exercise 5](https://github.com/shadyenapp/SinkingTheRubberDucky/blob/main/Exercises/Exercise%205/README.md)
 * [Exercise 6](https://github.com/shadyenapp/SinkingTheRubberDucky/blob/main/Exercises/Exercise%206/README.md)
+* [Exercise 7](https://github.com/shadyenapp/SinkingTheRubberDucky/blob/main/Exercises/Exercise%207/README.md)
+* [Exercise 8](https://github.com/shadyenapp/SinkingTheRubberDucky/blob/main/Exercises/Exercise%208/README.md)
 ## Projects
-
+* [WPA and SSID exporter](https://github.com/shadyenapp/SinkingTheRubberDucky/tree/main/Extra%20Scripts/Exfiltration/WPA%20Key%20Exporter)
+* [SSL-TLS Key Exporter](https://github.com/shadyenapp/SinkingTheRubberDucky/tree/main/Extra%20Scripts/Exfiltration/SSL-TLS%20Key%20Exporter)
 ## Final Report
