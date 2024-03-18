@@ -1,6 +1,6 @@
 REM Hayden Sapp
 REM 2024-03-12
-REM TO-DO Hide powershell?
+REM TO-DO Hide powershell and OS detection
 
 ATTACKMODE HID STORAGE
 DELAY 2000
