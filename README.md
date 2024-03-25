@@ -22,6 +22,11 @@ This senior capstone project is by Hayden Sapp and Emma McLeod for the Cyber Int
 * [Exercise 6](https://github.com/shadyenapp/SinkingTheRubberDucky/blob/main/Exercises/Exercise%206/README.md)
 * [Exercise 7](https://github.com/shadyenapp/SinkingTheRubberDucky/blob/main/Exercises/Exercise%207/README.md)
 * [Exercise 8](https://github.com/shadyenapp/SinkingTheRubberDucky/blob/main/Exercises/Exercise%208/README.md)
+* [Exercise 9](https://github.com/shadyenapp/SinkingTheRubberDucky/blob/main/Exercises/Exercise%209/README.md)
+* [Exercise 10](https://github.com/shadyenapp/SinkingTheRubberDucky/blob/main/Exercises/Exercise%2010/README.md)
+* [Exercise 11](https://github.com/shadyenapp/SinkingTheRubberDucky/blob/main/Exercises/Exercise%2011/README.md)
+* [Exercise 12](https://github.com/shadyenapp/SinkingTheRubberDucky/blob/main/Exercises/Exercise%2012/README.md)
+* [Exercise 13](https://github.com/shadyenapp/SinkingTheRubberDucky/blob/main/Exercises/Exercise%2013/README.md)
 ## Projects
 * [WPA and SSID exporter](https://github.com/shadyenapp/SinkingTheRubberDucky/tree/main/Extra%20Scripts/Exfiltration/WPA%20Key%20Exporter)
 * [SSL-TLS Key Exporter](https://github.com/shadyenapp/SinkingTheRubberDucky/tree/main/Extra%20Scripts/Exfiltration/SSL-TLS%20Key%20Exporter)
