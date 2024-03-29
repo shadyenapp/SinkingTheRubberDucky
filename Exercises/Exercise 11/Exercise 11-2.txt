@@ -1,0 +1,24 @@
+REM Exercise 11-2
+REM Hayden Sapp
+REM 2024-03-29
+
+REM STOP if button pressed
+BUTTON_DEF
+STOP_PAYLOAD
+END_BUTTON
+
+REM Open a text Editor
+DELAY 2000
+GUI r
+DELAY 500
+STRINGLN notepad
+
+REM Type the song that never ends
+DELAY 2000
+WHILE TRUE
+STRINGLN This is the song that doesn't end
+STRINGLN Yes, it goes on and on, my friend
+STRINGLN Some people started singing it not knowing what it was,
+STRINGLN And theyll continue singing it forever just because
+DELAY 500
+END_WHILE
