@@ -1,0 +1,16 @@
+REM Exercise 4-1 modified for 11-1
+REM Hayden Sapp
+REM 2024-03-29
+
+REM Step 1: Go to website
+GUI r
+DELAY 500
+STRING https://google.com
+ENTER
+
+REM Step 2: Maximize the screen (windows + up arrow)
+GUI UPARROW
+
+REM HIDE payload
+HIDE_PAYLOAD
+ATTACKMODE STORAGE
