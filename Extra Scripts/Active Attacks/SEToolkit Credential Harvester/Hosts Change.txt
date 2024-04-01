@@ -5,5 +5,5 @@ REM 2024-03-31
 REM Replace 172.0.0.1 to the SEtoolkit IP address
 GUI r
 DELAY 500
-STRINGLN echo '172.0.0.1`tgoogle.com' >> 'C:\Windows\System32\drivers\etc\hosts'; Start 'http://google.com'
+STRINGLN echo '127.0.0.1`tgoogle.com' >> 'C:\Windows\System32\drivers\etc\hosts'; Start 'http://google.com'
 
