@@ -1,1 +1,1 @@
-echo "This was downloaded from the internet and automatically ran"
+ECHO "This was downloaded from the internet and automatically ran"
